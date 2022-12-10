@@ -1,6 +1,6 @@
 #include <iostream>
 
-#define SIZE 39
+#define SIZE 32 //округляем до ближайшей степени двойки
 
 template<typename T, typename Compare>
 T Pivot(T* first, T* last, Compare comp)
